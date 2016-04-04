@@ -12,9 +12,9 @@ Package.onUse(function(api) {
   api.use('blaze-html-templates');
   api.use('es5-shim');
   api.use('ecmascript');
-  api.use('pushplaybang:common-polyfills');
-  api.use('pushplaybang:ballyhoo');
-  api.use('pushplaybang:callback-stack');
+  api.use('pushplaybang:common-polyfills@0.0.1');
+  api.use('pushplaybang:ballyhoo@0.0.1');
+  api.use('pushplaybang:callback-stack@0.0.1');
   api.addFiles('backshadow.js', 'client');
   api.addFiles('backshadow.html', 'client');
   api.addFiles('helpers.js', 'client');
