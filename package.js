@@ -1,8 +1,8 @@
 /* eslint-disable */
 Package.describe({
   name: 'pushplaybang:backshadow',
-  version: '0.0.1',
-  summary: 'full screen cover up, useful for overlayed UI components',
+  version: '0.0.2',
+  summary: 'full screen cover up UI component for blaze',
   git: '',
   documentation: 'README.md'
 });

@@ -1,5 +1,5 @@
 # BackShadow
-full screen cover up, useful for overlayed UI components
+full screen cover up for overlayed UI components with Meteor Blaze.
 
 ![Backshadow screenshot](https://raw.githubusercontent.com/Pushplaybang/backshadow/master/assets/screenshot.jpg)
 
@@ -47,9 +47,11 @@ Note that Backshadow also uses an SVG as it has better legacy support for pointe
 
 Also note that clicking on the backshadow will close it and fire a close event, this is useful in most situations, but a override is in the works.
 
+## Body Class
+When backshadow opens it adds a class to the body in the format `backshadow-visible-<id>` allowing you to style other elements in the dom, usually behind the shadow, while its active.
 
 ### Contributions and Suggestions Welcome!
-Have something you think this needs or could use as an improvement, let me know.  add [an issue on github]() or fork and create a pull request.
+Have something you think this needs or could use as an improvement, let me know.  add [an issue on github](https://github.com/Pushplaybang/backshadow/issues) or fork and create a pull request.
 
 
 
