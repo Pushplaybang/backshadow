@@ -1,5 +1,5 @@
 Template.backShadow.onCreated(function() {
-  var instance  = this;
+  var instance = this;
   BackShadow.events.on(instance.data.id+'/open', function() {
     BackShadow.show(instance.data.id);
   });
@@ -19,16 +19,3 @@ Template.backShadow.onRendered(function() {
   }, false);
 });
 
-
-Template.backShadow.helpers({
-  id: function() {
-    return Template.instance().data.id;
-  },
-  class: function() {
-    return Template.instance().data.className;
-  },
-  zindex: function() {
-    var zindex = Template.instance().data.zindex;
-    return (zindex) ? 'zindex:'+zindex+';' : '';
-  }
-});
