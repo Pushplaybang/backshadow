@@ -8,7 +8,7 @@ BackShadow = {
   wrap: '',
 
   /* show and hide the backshadow */
-  show: function(id, wrap) {
+  show: function(id) {
     this.el = document.getElementById(id);
     this.wrap = document.querySelector('body');
 
@@ -19,7 +19,7 @@ BackShadow = {
     this.wrap.classList.add('backshadow-visible-'+id);
   },
 
-  hide: function(id, wrap) {
+  hide: function(id) {
     this.el = document.getElementById(id);
     this.wrap = document.querySelector('body');
 
