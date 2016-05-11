@@ -24,9 +24,9 @@ modules-runtime@0.6.3
 mongo-id@1.0.4
 observe-sequence@1.0.11
 promise@0.6.7
-pushplaybang:backshadow@0.0.2
-pushplaybang:ballyhoo@0.0.1
-pushplaybang:callback-stack@0.0.1
+pushplaybang:backshadow@0.0.3
+pushplaybang:ballyhoo@0.0.3
+pushplaybang:callback-stack@0.0.3
 pushplaybang:common-polyfills@0.0.1
 random@1.0.9
 reactive-var@1.0.9
