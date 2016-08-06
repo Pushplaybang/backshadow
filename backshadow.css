@@ -1,0 +1,19 @@
+.backshadow {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .332s;
+}
+
+.backshadow rect {
+  fill:rgba(0,0,0,0.5);
+}
+
+.backshadow .js-visible {
+  opacity: 1;
+  pointer-events: auto;
+}

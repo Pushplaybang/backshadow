@@ -18,8 +18,8 @@ BackShadow = {
     if (this.el.classList.contains('visible'))
       return null;
 
-    this.el.classList.add('visible');
-    this.wrap.classList.add('backshadow-visible-'+id);
+    this.el.classList.add('js-visible');
+    this.wrap.classList.add('js-backshadow-visible-'+id);
   },
 
   hide: function(id) {
@@ -29,8 +29,8 @@ BackShadow = {
     if (!this.el.classList.contains('visible'))
       return null;
 
-    this.el.classList.remove('visible');
-    this.wrap.classList.remove('backshadow-visible-'+id);
+    this.el.classList.remove('js-visible');
+    this.wrap.classList.remove('js-backshadow-visible-'+id);
   },
 
   /* open and close the backshadow element */

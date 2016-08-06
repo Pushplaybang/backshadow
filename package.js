@@ -1,7 +1,7 @@
 /* eslint-disable */
 Package.describe({
   name: 'pushplaybang:backshadow',
-  version: '0.0.4',
+  version: '0.0.6',
   summary: 'full screen cover up UI component for blaze',
   git: 'https://github.com/Pushplaybang/backshadow',
   documentation: 'README.md'
@@ -17,6 +17,7 @@ Package.onUse(function(api) {
   api.use('pushplaybang:callback-stack@0.0.1');
   api.addFiles('backshadow.js', 'client');
   api.addFiles('backshadow.html', 'client');
+  api.addFiles('backshadow.css', 'client');
   api.addFiles('helpers.js', 'client');
   api.export('BackShadow', 'client');
 });
