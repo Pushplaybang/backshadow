@@ -15,18 +15,21 @@ BackShadow = {
     this.el = document.getElementById(id);
     this.wrap = document.querySelector('body');
 
-    if (this.el.classList.contains('visible'))
+    if (this.el.classList.contains('js-visible'))
       return null;
 
-    this.el.classList.add('js-visible');
+
     this.wrap.classList.add('js-backshadow-visible-'+id);
+    Meteor.setTimeout(() => {
+      this.el.classList.add('js-visible');
+    }, 30);
   },
 
   hide: function(id) {
     this.el = document.getElementById(id);
     this.wrap = document.querySelector('body');
 
-    if (!this.el.classList.contains('visible'))
+    if (!this.el.classList.contains('js-visible'))
       return null;
 
     this.el.classList.remove('js-visible');

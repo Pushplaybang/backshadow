@@ -13,7 +13,7 @@
   fill:rgba(0,0,0,0.5);
 }
 
-.backshadow .js-visible {
+.backshadow.js-visible {
   opacity: 1;
   pointer-events: auto;
 }

@@ -20,7 +20,7 @@ meteor add pushplaybang:backshadow
 {{> backShadow id='navigation' }}
 ```
 
-the `id` parameter is essential in order to provide a unique context for the backshadow instance. Once this is in your 
+the `id` parameter is essential in order to provide a unique context for the backshadow instance. Once this is in your
 
 Once your tempalte is setup, you can open and close the backshadow with the following methods:
 
@@ -78,7 +78,9 @@ Have something you think this needs or could use as an improvement, let me know.
 
 ## Changelog
 This includes notable changes to the package
-
+0.0.6
+ - CSS fixes
+ - all classes now have the `js-` prefix
 0.0.3
  - changed the body class from `backshadow-visible` to `js-backshadow-visible`
  - updated documentation to include the `show` and `hide` methods
